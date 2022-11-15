@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="inputDiv" id="inputDiv">
+            <input type="text" id="eventName">
+            <input type="date" name="" id="eventDate">
+            <input type="time" name="" id="eventTime" value="12:00">
+            <input type="button" value="Start" id="btnStart">
+            <input type="button" value="Save to List" id="btnSave">
+            <div class="renderDiv" id="renderDiv"></div>
+        </div>
+        <div class="showDiv" id="showDiv">
+            <div class="showName" id="showName"></div>
+            <div class="showDateTime" id="showDateTime">
+                <span id="showDate" class="showDate"></span><span id="divider" class="divider"></span><span id="showTime" class="showTime"></span>
+            </div>
+            <div class="timer" id="timer"></div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

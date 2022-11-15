@@ -1,0 +1,20 @@
+main {
+  display: flex;
+}
+.inputDiv {
+  display: flex;
+  flex-direction: column;
+  min-height: 500px;
+  background-color: aqua;
+}
+.showDiv {
+  width: 70%;
+  min-height: 500px;
+  background-color: aquamarine;
+}
+.renderDiv{
+  border: 1px solid black;
+  max-width: 200px;
+  overflow-x: scroll;
+  scroll-behavior: auto;
+}
